@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+fulladder instance_name (
+    .in_a(in_a), 
+    .in_b(in_b), 
+    .sum_out(sum_out), 
+    .c_out(c_out), 
+    .in_c(in_c)
+    );
+
+

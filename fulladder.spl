@@ -1,0 +1,11 @@
+[Inputs]
+in_a
+in_b
+in_c
+[Outputs]
+sum_out
+c_out
+[BiDir]
+[ATTRIBUTES]
+VeriModel fulladder
+

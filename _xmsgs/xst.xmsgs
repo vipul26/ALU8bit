@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">sum_out</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">c_out</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">overflow</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">in_a</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 33: Redeclaration of ansi port <arg fmt="%s" index="1">in_b</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">in_c</arg> is not allowed
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 36: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 37: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 38: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 39: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 40: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 41: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 42: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 43: Instantiation is not allowed in sequential area except checker instantiation
+</msg>
+
+</messages>
+

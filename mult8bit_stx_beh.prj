@@ -1,0 +1,3 @@
+verilog isim_temp "booth_step_mult.v"
+verilog isim_temp "mult8bit.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

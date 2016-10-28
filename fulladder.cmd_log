@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj ALUproject -o C:/Users/Vipul/ALUproject/fulladder.tfi -lib work C:/Users/Vipul/ALUproject//fulladder.v -module fulladder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/Vipul/ALUproject/fulladder.v -lang verilog -prj ALUproject -o fulladder.spl -module fulladder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 fulladder.spl C:/Users/Vipul/ALUproject/fulladder.sym 

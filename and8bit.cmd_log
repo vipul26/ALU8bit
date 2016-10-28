@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/and8bit.xst" -ofn "C:/Users/Vipul/ALUproject/and8bit.syr" 
+vhdtdtfi -lib work C:/Users/Vipul/ALUproject/and8bit.v -lang verilog -prj ALUproject -o and8bit.spl -module and8bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 and8bit.spl C:/Users/Vipul/ALUproject/and8bit.sym 
+vhdtdtfi -lib work C:/Users/Vipul/ALUproject/and8bit.v -lang verilog -prj ALUproject -o and8bit.spl -module and8bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 and8bit.spl C:/Users/Vipul/ALUproject/and8bit.sym 
