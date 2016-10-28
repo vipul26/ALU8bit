@@ -14,12 +14,11 @@ Finished circuit initialization process.
 # isim force add /mult8bit/in_a 00000001 -radix bin
 # isim force add /mult8bit/in_b 00000001 -radix bin
 # run 1.00us
-# isim force add /mult8bit/in_a 00000010 -radix bin
+value1 of out_c is:    1
+out_c = 0000000000000001
+# isim force add /mult8bit/in_b 00000010 -radix bin
 # run 1.00us
-# isim force add /mult8bit/in_b 00000011 -radix bin
-# run 1.00us
-# isim force add /mult8bit/in_a 00000011 -radix bin
-# run 1.00us
-# isim force add /mult8bit/in_a 11111111 -radix bin
-# run all
-# run 1.00us
+value1 of out_c is:    3
+out_c = 0000000000000011
+value1 of out_c is:    2
+out_c = 0000000000000010

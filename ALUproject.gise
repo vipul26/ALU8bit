@@ -77,46 +77,61 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1477687941" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1477687941">
+    <transform xil_pn:end_ts="1477691056" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1477691056">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1477688440" xil_pn:in_ck="-7892006202526491239" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1477688440">
+    <transform xil_pn:end_ts="1477691877" xil_pn:in_ck="749495259905660199" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1477691877">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
       <outfile xil_pn:name="and8bit.v"/>
       <outfile xil_pn:name="booth_step_mult.v"/>
       <outfile xil_pn:name="fulladder.v"/>
       <outfile xil_pn:name="mult8bit.v"/>
+      <outfile xil_pn:name="register_file.v"/>
       <outfile xil_pn:name="ripple8bit.v"/>
       <outfile xil_pn:name="xor8bit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1477688448" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2752559258237672272" xil_pn:start_ts="1477688448">
+    <transform xil_pn:end_ts="1477691056" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2752559258237672272" xil_pn:start_ts="1477691056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1477691056" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1059061820788776302" xil_pn:start_ts="1477691056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1477691056" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6443020687063601408" xil_pn:start_ts="1477691056">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1477688448" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1059061820788776302" xil_pn:start_ts="1477688448">
+    <transform xil_pn:end_ts="1477691056" xil_pn:in_ck="-2164501114217925089" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1477691056">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1477687941" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6443020687063601408" xil_pn:start_ts="1477687941">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1477688448" xil_pn:in_ck="-7892006202526491239" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1477688448">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="and8bit.v"/>
-      <outfile xil_pn:name="booth_step_mult.v"/>
-      <outfile xil_pn:name="fulladder.v"/>
-      <outfile xil_pn:name="mult8bit.v"/>
-      <outfile xil_pn:name="ripple8bit.v"/>
-      <outfile xil_pn:name="xor8bit.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1477688451" xil_pn:in_ck="-7892006202526491239" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-537297418847913905" xil_pn:start_ts="1477688448">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="and8bit.v"/>
+      <outfile xil_pn:name="booth_step_mult.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+      <outfile xil_pn:name="mult8bit.v"/>
+      <outfile xil_pn:name="ripple8bit.v"/>
+      <outfile xil_pn:name="xor8bit.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1477691060" xil_pn:in_ck="-2164501114217925089" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-537297418847913905" xil_pn:start_ts="1477691056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -125,9 +140,11 @@
       <outfile xil_pn:name="mult8bit_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1477688452" xil_pn:in_ck="7024965144405105947" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="462239569388993010" xil_pn:start_ts="1477688451">
+    <transform xil_pn:end_ts="1477691060" xil_pn:in_ck="7024965144405105947" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="462239569388993010" xil_pn:start_ts="1477691060">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>

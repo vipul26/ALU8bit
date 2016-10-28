@@ -2,28 +2,28 @@ Command line:
    mult8bit_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52901
+     -socket  53046
 
-Sat Oct 29 02:30:54 2016
+Sat Oct 29 03:14:22 2016
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 841.531 Meg
+ Current Memory Usage: 841.548 Meg
 
- Total Signals          : 90
+ Total Signals          : 89
  Total Nets             : 326
- Total Signal Drivers   : 39
+ Total Signal Drivers   : 40
  Total Blocks           : 10
  Total Primitive Blocks : 9
- Total Processes        : 48
- Total Traceable Variables  : 34
- Total Scalar Nets and Variables : 542
-Total Line Count : 136
+ Total Processes        : 50
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 558
+Total Line Count : 140
 
- Total Simulation Time: 0.203125 sec
+ Total Simulation Time: 0.171875 sec
 
- Current Memory Usage: 684.245 Meg
+ Current Memory Usage: 684.261 Meg
 
-Sat Oct 29 02:35:57 2016
+Sat Oct 29 03:28:03 2016
 

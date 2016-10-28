@@ -23,6 +23,8 @@
 #endif
 static const char *ng0 = "C:/Users/Vipul/ALUproject/mult8bit.v";
 static unsigned int ng1[] = {0U, 0U};
+static const char *ng2 = "value1 of out_c is:%d";
+static const char *ng3 = "out_c = %b";
 
 
 
@@ -53,7 +55,7 @@ LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(39, ng0);
     t2 = ((char*)((ng1)));
-    t3 = (t0 + 6056);
+    t3 = (t0 + 6320);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
     t6 = (t5 + 56U);
@@ -131,7 +133,7 @@ LAB2:    xsi_set_current_line(41, ng0);
     t13 = *((unsigned int *)t5);
     *((unsigned int *)t5) = (t13 & 255U);
     xsi_vlogtype_concat(t3, 9, 9, 2U, t4, 8, t2, 1);
-    t14 = (t0 + 6120);
+    t14 = (t0 + 6384);
     t15 = (t14 + 56U);
     t16 = *((char **)t15);
     t17 = (t16 + 56U);
@@ -150,16 +152,113 @@ LAB2:    xsi_set_current_line(41, ng0);
     t26 = *((unsigned int *)t24);
     *((unsigned int *)t24) = (t26 | t20);
     xsi_driver_vfirst_trans(t14, 0, 8U);
-    t27 = (t0 + 5976);
+    t27 = (t0 + 6224);
     *((int *)t27) = 1;
 
 LAB1:    return;
 }
 
-
-extern void work_m_00000000000886847815_3366220470_init()
+static void Always_60_2(char *t0)
 {
-	static char *pe[] = {(void *)Cont_39_0,(void *)NetDecl_41_1};
-	xsi_register_didat("work_m_00000000000886847815_3366220470", "isim/mult8bit_isim_beh.exe.sim/work/m_00000000000886847815_3366220470.didat");
+    char t4[8];
+    char t5[8];
+    char *t1;
+    char *t2;
+    char *t3;
+    char *t6;
+    char *t7;
+    char *t8;
+    unsigned int t9;
+    unsigned int t10;
+    unsigned int t11;
+    unsigned int t12;
+    unsigned int t13;
+    unsigned int t14;
+    char *t15;
+    char *t16;
+
+LAB0:    t1 = (t0 + 5904U);
+    t2 = *((char **)t1);
+    if (t2 == 0)
+        goto LAB2;
+
+LAB3:    goto *t2;
+
+LAB2:    xsi_set_current_line(60, ng0);
+    t2 = (t0 + 6240);
+    *((int *)t2) = 1;
+    t3 = (t0 + 5936);
+    *((char **)t3) = t2;
+    *((char **)t1) = &&LAB4;
+
+LAB1:    return;
+LAB4:    xsi_set_current_line(60, ng0);
+
+LAB5:    xsi_set_current_line(61, ng0);
+    t6 = (t0 + 4088U);
+    t7 = *((char **)t6);
+    memset(t5, 0, 8);
+    t6 = (t5 + 4);
+    t8 = (t7 + 4);
+    t9 = *((unsigned int *)t7);
+    t10 = (t9 >> 1);
+    *((unsigned int *)t5) = t10;
+    t11 = *((unsigned int *)t8);
+    t12 = (t11 >> 1);
+    *((unsigned int *)t6) = t12;
+    t13 = *((unsigned int *)t5);
+    *((unsigned int *)t5) = (t13 & 255U);
+    t14 = *((unsigned int *)t6);
+    *((unsigned int *)t6) = (t14 & 255U);
+    t15 = (t0 + 2648U);
+    t16 = *((char **)t15);
+    xsi_vlogtype_concat(t4, 16, 16, 2U, t16, 8, t5, 8);
+    t15 = (t0 + 4488);
+    xsi_vlogvar_assign_value(t15, t4, 0, 0, 16);
+    xsi_set_current_line(62, ng0);
+    t2 = (t0 + 4488);
+    t3 = (t2 + 56U);
+    t6 = *((char **)t3);
+    memset(t4, 0, 8);
+    t7 = (t4 + 4);
+    t8 = (t6 + 4);
+    t9 = *((unsigned int *)t6);
+    t10 = (t9 >> 0);
+    *((unsigned int *)t4) = t10;
+    t11 = *((unsigned int *)t8);
+    t12 = (t11 >> 0);
+    *((unsigned int *)t7) = t12;
+    t13 = *((unsigned int *)t4);
+    *((unsigned int *)t4) = (t13 & 65535U);
+    t14 = *((unsigned int *)t7);
+    *((unsigned int *)t7) = (t14 & 65535U);
+    xsi_vlogfile_write(1, 0, 0, ng2, 2, t0, (char)118, t4, 16);
+    xsi_set_current_line(63, ng0);
+    t2 = (t0 + 4488);
+    t3 = (t2 + 56U);
+    t6 = *((char **)t3);
+    memset(t4, 0, 8);
+    t7 = (t4 + 4);
+    t8 = (t6 + 4);
+    t9 = *((unsigned int *)t6);
+    t10 = (t9 >> 0);
+    *((unsigned int *)t4) = t10;
+    t11 = *((unsigned int *)t8);
+    t12 = (t11 >> 0);
+    *((unsigned int *)t7) = t12;
+    t13 = *((unsigned int *)t4);
+    *((unsigned int *)t4) = (t13 & 65535U);
+    t14 = *((unsigned int *)t7);
+    *((unsigned int *)t7) = (t14 & 65535U);
+    xsi_vlogfile_write(1, 0, 0, ng3, 2, t0, (char)118, t4, 16);
+    goto LAB2;
+
+}
+
+
+extern void work_m_00000000003361439597_3366220470_init()
+{
+	static char *pe[] = {(void *)Cont_39_0,(void *)NetDecl_41_1,(void *)Always_60_2};
+	xsi_register_didat("work_m_00000000003361439597_3366220470", "isim/mult8bit_isim_beh.exe.sim/work/m_00000000003361439597_3366220470.didat");
 	xsi_register_executes(pe);
 }

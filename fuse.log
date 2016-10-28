@@ -5,6 +5,7 @@ Turning on mult-threading, number of parallel sub-compilation jobs: 8
 Determining compilation order of HDL files
 Analyzing Verilog file "C:/Users/Vipul/ALUproject/booth_step_mult.v" into library work
 Analyzing Verilog file "C:/Users/Vipul/ALUproject/mult8bit.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Vipul/ALUproject/mult8bit.v" Line 25: Redeclaration of ansi port out_c is not allowed
 WARNING:HDLCompiler:751 - "C:/Users/Vipul/ALUproject/mult8bit.v" Line 26: Redeclaration of ansi port in_a is not allowed
 WARNING:HDLCompiler:751 - "C:/Users/Vipul/ALUproject/mult8bit.v" Line 27: Redeclaration of ansi port in_b is not allowed
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
@@ -14,8 +15,7 @@ Compiling module booth_step_mult
 Compiling module mult8bit
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/Vipul/ALUproject/mult8bit_isim_beh.exe
-Fuse Memory Usage: 27944 KB
-Fuse CPU Usage: 609 ms
+Fuse Memory Usage: 28080 KB
+Fuse CPU Usage: 639 ms

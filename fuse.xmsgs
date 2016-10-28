@@ -5,10 +5,22 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/mult8bit.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">in_a</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ripple8bit.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">sum_out</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/mult8bit.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">in_b</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ripple8bit.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">c_out</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ripple8bit.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">overflow</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ripple8bit.v" Line 33: Redeclaration of ansi port <arg fmt="%s" index="1">in_a</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ripple8bit.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">in_b</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ripple8bit.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">in_c</arg> is not allowed
 </msg>
 
 </messages>

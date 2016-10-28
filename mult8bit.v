@@ -22,7 +22,7 @@ module mult8bit(input [7:0]in_a,
 		input [7:0]in_b,
 		output [15:0]out_c
 		);
-
+reg [15:0]out_c;
 wire [7:0]in_a;
 wire [7:0]in_b;
 
@@ -57,5 +57,10 @@ booth_step_mult b6(temp_A6, in_b, temp_Q6, temp_A7, temp_Q7);
 booth_step_mult b7(temp_A7, in_b, temp_Q7, temp_A8, temp_Q8);
 booth_step_mult b8(temp_A8, in_b, temp_Q8, temp_A9, temp_Q9);
 
+always@(temp_A9, temp_Q9)begin
+out_c = {temp_A9,temp_Q9[8:1]};
+$display ("value1 of out_c is:%d", out_c[15:0]);
+$display ("out_c = %b", out_c[15:0]);
+end
 
 endmodule
