@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Vipul\ALUproject\register_file_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Vipul/ALUproject/register_file_isim_beh.wdb 
+Running: C:\Users\Vipul\ALUproject\final_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Vipul/ALUproject/final_test_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,3 +11,1557 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+executing addition result = xxxxxxxx
+result=   x
+executing addition result = xxxxxxx0
+result=   X
+executing addition result = 00000000
+result=   0
+value1 of out_c is:    0
+out_c = 0000000000000000
+executing addition result = 00000000
+result=   0
+executing addition result = 00000000
+result=   0
+0
+executing addition result = 00000000
+result=   0
+executing addition result = 00000000
+result=   0
+executing addition result = 00000010
+result=   2
+value1 of out_c is:    1
+out_c = 0000000000000001
+executing addition result = 00000010
+result=   2
+executing and result = 00000001
+result=   1
+executing xor result = 00000000
+result=   0
+executing multiplication result = 0000000000000001
+result=     1
+executing multiplication result = 0000000000000001
+result=     1
+executing multiplication result = 0000000000000001
+result=     1
+value1 of out_c is:    0
+out_c = 0000000000000000
+executing multiplication result = 0000000000000000
+result=     0
+executing multiplication result = 0000000000000000
+result=     0
+executing multiplication result = 0000000000000000
+result=     0
+value1 of out_c is:    1
+out_c = 0000000000000001
+executing multiplication result = 0000000000000001
+result=     1
+executing multiplication result = 0000000000000001
+result=     1
+executing multiplication result = 0000000000000001
+result=     1
+value1 of out_c is:    0
+out_c = 0000000000000000
+executing multiplication result = 0000000000000000
+result=     0
+executing multiplication result = 0000000000000000
+result=     0
+executing multiplication result = 0000000000000000
+result=     0
+value1 of out_c is:    1
+out_c = 0000000000000001
+executing multiplication result = 0000000000000001
+result=     1
+executing multiplication result = 0000000000000001
+result=     1
+executing multiplication result = 0000000000000001
+result=     1
+value1 of out_c is:    0
+out_c = 0000000000000000
+executing multiplication result = 0000000000000000
+result=     0
+executing addition result = 00000001
+result=   1
+executing addition result = 01110101
+result= 117
+executing addition result = 01100001
+result=  97
+executing addition result = 01001001
+result=  73
+executing addition result = 00001001
+result=   9
+executing addition result = 00000000
+result=   0
+executing addition result = 00000000
+result=   0
+value1 of out_c is: 1270
+out_c = 0000010011110110
+executing addition result = 00000000
+result=   0
+executing and result = 00001010
+result=  10
+executing xor result = 01110101
+result= 117
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+value1 of out_c is:   40
+out_c = 0000000000101000
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+value1 of out_c is: 1270
+out_c = 0000010011110110
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+value1 of out_c is:   40
+out_c = 0000000000101000
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+executing multiplication result = 0000000000101000
+result=    40
+value1 of out_c is: 1270
+out_c = 0000010011110110
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+executing multiplication result = 0000010011110110
+result=  1270
+value1 of out_c is:   40
+out_c = 0000000000101000
+executing multiplication result = 0000000000101000
+result=    40
+executing addition result = 00001110
+result=  14
+executing addition result = 11111010
+result= 250
+executing addition result = 11110010
+result= 242
+executing addition result = 11100010
+result= 226
+executing addition result = 11000010
+result= 194
+executing addition result = 10000010
+result= 130
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing addition result = 00000000
+result=   0
+executing addition result = 00000000
+result=   0
+value1 of out_c is:65496
+out_c = 1111111111011000
+executing addition result = 00000000
+result=   0
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing addition result = 00000000
+result=   0
+executing addition result = 00000000
+result=   0
+x
+executing addition result = 00000010
+result=   2
+executing and result = 00000100
+result=   4
+executing xor result = 11111010
+result= 250
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+executing multiplication result = 1111111110001000
+result= 65416
+value1 of out_c is:   10
+out_c = 0000000000001010
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+executing multiplication result = 0000000000001010
+result=    10
+value1 of out_c is:65416
+out_c = 1111111110001000
+executing multiplication result = 1111111110001000
+result= 65416

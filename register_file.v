@@ -7,7 +7,8 @@ input [7:0]inreg2,
 input [1:0]opcode,
 output [7:0]store_word,
 output [7:0]store_inp1,
-output [7:0]store_inp2
+output carry_output,
+output overflow_output
     );
 //input lines for integers
 wire [7:0]inreg1;
@@ -20,11 +21,12 @@ wire carry_output;
 wire overflow_output;
 //output lines for register to memory
 //wire [7:0]outmemory;
-//four register in register file
+//four register in register_file(main register file)
 reg [7:0]store_word;
 reg [7:0]store_inp1;
 reg [7:0]store_inp2;
-reg [7:0]store_opcode;
+reg [1:0]store_opcode;
+//this contains the code using register file and ALU, rathering than creating a different module implemented in the same module
 reg clk = 0;
 
 always begin
@@ -34,17 +36,17 @@ end
 
 always @(posedge clk)
 begin
-  #2
   store_inp1 = inreg1;
   store_inp2 = inreg2;
-  store_opcode = {6'b0, opcode[1:0]};
+  store_opcode =  opcode[1:0];
 end
 //assigning wires the values of input value stored in the register file in first clock cycle
 
-ALU return_reg(store_inp1, store_inp2, store_opcode[1:0], carry_output, overflow_output, result, product);
-always @(negedge clk)
+ALU return_reg(store_inp1, store_inp2, store_opcode[1:0], overflow_output, carry_output, result, product);
+always @(posedge clk)
+#1
 begin
-if(store_opcode == 4)
+if(store_opcode == 3)
 begin
 //stores the result when multiplication is done, use store_inp1 and store_word to see teh output in product case
 store_inp1 = product[15:8];

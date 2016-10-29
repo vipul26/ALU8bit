@@ -53,22 +53,25 @@
 <msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/ALU.v" Line 19: Redeclaration of ansi port <arg fmt="%s" index="1">product</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 13: Redeclaration of ansi port <arg fmt="%s" index="1">inreg1</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 14: Redeclaration of ansi port <arg fmt="%s" index="1">inreg1</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 14: Redeclaration of ansi port <arg fmt="%s" index="1">inreg2</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 15: Redeclaration of ansi port <arg fmt="%s" index="1">inreg2</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 15: Redeclaration of ansi port <arg fmt="%s" index="1">opcode</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 16: Redeclaration of ansi port <arg fmt="%s" index="1">opcode</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 24: Redeclaration of ansi port <arg fmt="%s" index="1">store_word</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 20: Redeclaration of ansi port <arg fmt="%s" index="1">carry_output</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 25: Redeclaration of ansi port <arg fmt="%s" index="1">store_inp1</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 21: Redeclaration of ansi port <arg fmt="%s" index="1">overflow_output</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">store_inp2</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 25: Redeclaration of ansi port <arg fmt="%s" index="1">store_word</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Vipul/ALUproject/register_file.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">store_inp1</arg> is not allowed
 </msg>
 
 </messages>

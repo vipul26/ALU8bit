@@ -17,7 +17,7 @@ module ripple8bit(
 	wire [7:0]in_a;
 	wire [7:0]in_b;
 	wire in_c;
-	
+	assign c_out = 1'b0;
 	fulladder f1(in_a[0],in_b[0],sum_out[0],c_temp[0],in_c);
 	fulladder f2(in_a[1],in_b[1],sum_out[1],c_temp[1],c_temp[0]);								
    fulladder f3(in_a[2],in_b[2],sum_out[2],c_temp[2],c_temp[1]);
