@@ -1,23 +1,7 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    22:29:16 10/28/2016 
-// Design Name: 
-// Module Name:    mult8bit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+//GroupID-14 (15116073_15116037)-Vipul Gupta & Nitin Sethi
+//Date:28th October 2016
+//Main Booth's algorithm multiplication
 module mult8bit(input [7:0]in_a,
 		input [7:0]in_b,
 		output [15:0]out_c

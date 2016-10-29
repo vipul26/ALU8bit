@@ -21,12 +21,14 @@
 module fulladder(
     input wire in_a,
     input wire in_b,
-    output sum_out,
-    output wire c_out,
+    output reg sum_out,
+    output reg c_out,
     input wire in_c
     );
-
-  assign sum_out = in_a^in_b^in_c;
-  assign c_out = (in_a&in_b)|(in_a&in_c)|(in_b&in_c);
+always @*
+begin
+  sum_out = in_a^in_b^in_c;
+  c_out = (in_a&in_b)|(in_a&in_c)|(in_b&in_c);
+end
 
 endmodule

@@ -1,0 +1,463 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+intop1<0>      |carry          |    7.426|
+intop1<0>      |overflow       |    7.654|
+intop1<0>      |product<0>     |    6.544|
+intop1<0>      |product<1>     |    9.006|
+intop1<0>      |product<2>     |   10.602|
+intop1<0>      |product<3>     |   12.343|
+intop1<0>      |product<4>     |   14.108|
+intop1<0>      |product<5>     |   16.265|
+intop1<0>      |product<6>     |   18.406|
+intop1<0>      |product<7>     |   19.968|
+intop1<0>      |product<8>     |   20.778|
+intop1<0>      |product<9>     |   21.247|
+intop1<0>      |product<10>    |   21.721|
+intop1<0>      |product<11>    |   21.661|
+intop1<0>      |product<12>    |   21.986|
+intop1<0>      |product<13>    |   22.473|
+intop1<0>      |product<14>    |   22.883|
+intop1<0>      |product<15>    |   22.788|
+intop1<0>      |result<0>      |    9.175|
+intop1<0>      |result<1>      |    8.312|
+intop1<0>      |result<2>      |    8.100|
+intop1<0>      |result<3>      |    8.019|
+intop1<0>      |result<4>      |    7.890|
+intop1<0>      |result<5>      |    7.922|
+intop1<0>      |result<6>      |    7.898|
+intop1<0>      |result<7>      |    7.338|
+intop1<1>      |carry          |    7.461|
+intop1<1>      |overflow       |    7.689|
+intop1<1>      |product<1>     |    7.003|
+intop1<1>      |product<2>     |    8.348|
+intop1<1>      |product<3>     |    9.480|
+intop1<1>      |product<4>     |   11.315|
+intop1<1>      |product<5>     |   13.402|
+intop1<1>      |product<6>     |   15.543|
+intop1<1>      |product<7>     |   17.105|
+intop1<1>      |product<8>     |   17.915|
+intop1<1>      |product<9>     |   18.384|
+intop1<1>      |product<10>    |   18.858|
+intop1<1>      |product<11>    |   18.828|
+intop1<1>      |product<12>    |   19.153|
+intop1<1>      |product<13>    |   19.640|
+intop1<1>      |product<14>    |   20.050|
+intop1<1>      |product<15>    |   19.955|
+intop1<1>      |result<0>      |    9.210|
+intop1<1>      |result<1>      |    8.347|
+intop1<1>      |result<2>      |    8.135|
+intop1<1>      |result<3>      |    8.054|
+intop1<1>      |result<4>      |    7.925|
+intop1<1>      |result<5>      |    7.957|
+intop1<1>      |result<6>      |    7.933|
+intop1<1>      |result<7>      |    7.373|
+intop1<2>      |carry          |    7.725|
+intop1<2>      |overflow       |    7.953|
+intop1<2>      |product<2>     |    8.599|
+intop1<2>      |product<3>     |    7.756|
+intop1<2>      |product<4>     |   10.339|
+intop1<2>      |product<5>     |   12.619|
+intop1<2>      |product<6>     |   14.760|
+intop1<2>      |product<7>     |   16.322|
+intop1<2>      |product<8>     |   17.132|
+intop1<2>      |product<9>     |   17.601|
+intop1<2>      |product<10>    |   18.075|
+intop1<2>      |product<11>    |   18.091|
+intop1<2>      |product<12>    |   18.416|
+intop1<2>      |product<13>    |   18.903|
+intop1<2>      |product<14>    |   19.313|
+intop1<2>      |product<15>    |   19.218|
+intop1<2>      |result<0>      |    9.474|
+intop1<2>      |result<1>      |    8.611|
+intop1<2>      |result<2>      |    8.399|
+intop1<2>      |result<3>      |    8.318|
+intop1<2>      |result<4>      |    8.189|
+intop1<2>      |result<5>      |    8.221|
+intop1<2>      |result<6>      |    8.197|
+intop1<2>      |result<7>      |    7.637|
+intop1<3>      |carry          |    7.042|
+intop1<3>      |overflow       |    7.270|
+intop1<3>      |product<3>     |    7.155|
+intop1<3>      |product<4>     |    7.931|
+intop1<3>      |product<5>     |    9.867|
+intop1<3>      |product<6>     |   12.308|
+intop1<3>      |product<7>     |   13.775|
+intop1<3>      |product<8>     |   14.680|
+intop1<3>      |product<9>     |   15.149|
+intop1<3>      |product<10>    |   15.623|
+intop1<3>      |product<11>    |   15.520|
+intop1<3>      |product<12>    |   15.747|
+intop1<3>      |product<13>    |   16.115|
+intop1<3>      |product<14>    |   16.525|
+intop1<3>      |product<15>    |   16.430|
+intop1<3>      |result<0>      |    8.791|
+intop1<3>      |result<1>      |    7.928|
+intop1<3>      |result<2>      |    7.716|
+intop1<3>      |result<3>      |    7.635|
+intop1<3>      |result<4>      |    7.506|
+intop1<3>      |result<5>      |    7.538|
+intop1<3>      |result<6>      |    7.514|
+intop1<3>      |result<7>      |    6.954|
+intop1<4>      |carry          |    6.805|
+intop1<4>      |overflow       |    7.033|
+intop1<4>      |product<4>     |    6.872|
+intop1<4>      |product<5>     |    7.355|
+intop1<4>      |product<6>     |    9.449|
+intop1<4>      |product<7>     |   11.021|
+intop1<4>      |product<8>     |   11.821|
+intop1<4>      |product<9>     |   12.290|
+intop1<4>      |product<10>    |   12.764|
+intop1<4>      |product<11>    |   12.661|
+intop1<4>      |product<12>    |   12.888|
+intop1<4>      |product<13>    |   13.195|
+intop1<4>      |product<14>    |   13.602|
+intop1<4>      |product<15>    |   13.507|
+intop1<4>      |result<0>      |    8.554|
+intop1<4>      |result<1>      |    7.691|
+intop1<4>      |result<2>      |    7.479|
+intop1<4>      |result<3>      |    7.398|
+intop1<4>      |result<4>      |    7.269|
+intop1<4>      |result<5>      |    7.301|
+intop1<4>      |result<6>      |    7.277|
+intop1<4>      |result<7>      |    6.717|
+intop1<5>      |carry          |    6.581|
+intop1<5>      |overflow       |    6.809|
+intop1<5>      |product<5>     |    6.611|
+intop1<5>      |product<6>     |    7.815|
+intop1<5>      |product<7>     |    9.507|
+intop1<5>      |product<8>     |    9.944|
+intop1<5>      |product<9>     |   10.351|
+intop1<5>      |product<10>    |   10.592|
+intop1<5>      |product<11>    |   10.470|
+intop1<5>      |product<12>    |   10.710|
+intop1<5>      |product<13>    |   11.006|
+intop1<5>      |product<14>    |   11.423|
+intop1<5>      |product<15>    |   11.328|
+intop1<5>      |result<0>      |    8.330|
+intop1<5>      |result<1>      |    7.467|
+intop1<5>      |result<2>      |    7.255|
+intop1<5>      |result<3>      |    7.174|
+intop1<5>      |result<4>      |    7.045|
+intop1<5>      |result<5>      |    7.077|
+intop1<5>      |result<6>      |    7.053|
+intop1<5>      |result<7>      |    6.493|
+intop1<6>      |carry          |    6.286|
+intop1<6>      |overflow       |    6.514|
+intop1<6>      |product<6>     |    6.757|
+intop1<6>      |product<7>     |    7.824|
+intop1<6>      |product<8>     |    8.521|
+intop1<6>      |product<9>     |    8.502|
+intop1<6>      |product<10>    |    8.659|
+intop1<6>      |product<11>    |    8.524|
+intop1<6>      |product<12>    |    8.745|
+intop1<6>      |product<13>    |    9.041|
+intop1<6>      |product<14>    |    9.458|
+intop1<6>      |product<15>    |    9.363|
+intop1<6>      |result<0>      |    8.035|
+intop1<6>      |result<1>      |    7.172|
+intop1<6>      |result<2>      |    6.960|
+intop1<6>      |result<3>      |    6.879|
+intop1<6>      |result<4>      |    6.750|
+intop1<6>      |result<5>      |    6.782|
+intop1<6>      |result<6>      |    6.758|
+intop1<6>      |result<7>      |    6.198|
+intop1<7>      |carry          |    5.591|
+intop1<7>      |overflow       |    5.818|
+intop1<7>      |product<7>     |    6.926|
+intop1<7>      |product<8>     |    6.641|
+intop1<7>      |product<9>     |    6.869|
+intop1<7>      |product<10>    |    6.901|
+intop1<7>      |product<11>    |    6.526|
+intop1<7>      |product<12>    |    6.401|
+intop1<7>      |product<13>    |    6.573|
+intop1<7>      |product<14>    |    6.794|
+intop1<7>      |product<15>    |    6.699|
+intop1<7>      |result<0>      |    7.407|
+intop1<7>      |result<1>      |    6.826|
+intop1<7>      |result<2>      |    6.614|
+intop1<7>      |result<3>      |    6.533|
+intop1<7>      |result<4>      |    6.404|
+intop1<7>      |result<5>      |    6.436|
+intop1<7>      |result<6>      |    6.412|
+intop1<7>      |result<7>      |    5.861|
+intop2<0>      |carry          |    7.860|
+intop2<0>      |overflow       |    8.088|
+intop2<0>      |product<0>     |    8.209|
+intop2<0>      |product<1>     |    8.914|
+intop2<0>      |product<2>     |   10.545|
+intop2<0>      |product<3>     |   12.286|
+intop2<0>      |product<4>     |   14.156|
+intop2<0>      |product<5>     |   16.208|
+intop2<0>      |product<6>     |   18.349|
+intop2<0>      |product<7>     |   19.911|
+intop2<0>      |product<8>     |   20.721|
+intop2<0>      |product<9>     |   21.190|
+intop2<0>      |product<10>    |   21.664|
+intop2<0>      |product<11>    |   21.669|
+intop2<0>      |product<12>    |   21.994|
+intop2<0>      |product<13>    |   22.481|
+intop2<0>      |product<14>    |   22.891|
+intop2<0>      |product<15>    |   22.796|
+intop2<0>      |result<0>      |    9.609|
+intop2<0>      |result<1>      |    8.746|
+intop2<0>      |result<2>      |    8.534|
+intop2<0>      |result<3>      |    8.453|
+intop2<0>      |result<4>      |    8.324|
+intop2<0>      |result<5>      |    8.356|
+intop2<0>      |result<6>      |    8.332|
+intop2<0>      |result<7>      |    7.772|
+intop2<1>      |carry          |    7.664|
+intop2<1>      |overflow       |    7.892|
+intop2<1>      |product<1>     |    8.844|
+intop2<1>      |product<2>     |   10.475|
+intop2<1>      |product<3>     |   12.216|
+intop2<1>      |product<4>     |   14.244|
+intop2<1>      |product<5>     |   16.257|
+intop2<1>      |product<6>     |   18.398|
+intop2<1>      |product<7>     |   19.960|
+intop2<1>      |product<8>     |   20.770|
+intop2<1>      |product<9>     |   21.239|
+intop2<1>      |product<10>    |   21.713|
+intop2<1>      |product<11>    |   21.757|
+intop2<1>      |product<12>    |   22.082|
+intop2<1>      |product<13>    |   22.569|
+intop2<1>      |product<14>    |   22.979|
+intop2<1>      |product<15>    |   22.884|
+intop2<1>      |result<0>      |    9.413|
+intop2<1>      |result<1>      |    8.550|
+intop2<1>      |result<2>      |    8.338|
+intop2<1>      |result<3>      |    8.257|
+intop2<1>      |result<4>      |    8.128|
+intop2<1>      |result<5>      |    8.160|
+intop2<1>      |result<6>      |    8.136|
+intop2<1>      |result<7>      |    7.576|
+intop2<2>      |carry          |    7.467|
+intop2<2>      |overflow       |    7.695|
+intop2<2>      |product<2>     |   10.120|
+intop2<2>      |product<3>     |   11.771|
+intop2<2>      |product<4>     |   14.233|
+intop2<2>      |product<5>     |   16.246|
+intop2<2>      |product<6>     |   18.387|
+intop2<2>      |product<7>     |   19.949|
+intop2<2>      |product<8>     |   20.759|
+intop2<2>      |product<9>     |   21.228|
+intop2<2>      |product<10>    |   21.702|
+intop2<2>      |product<11>    |   21.746|
+intop2<2>      |product<12>    |   22.071|
+intop2<2>      |product<13>    |   22.558|
+intop2<2>      |product<14>    |   22.968|
+intop2<2>      |product<15>    |   22.873|
+intop2<2>      |result<0>      |    9.216|
+intop2<2>      |result<1>      |    8.353|
+intop2<2>      |result<2>      |    8.141|
+intop2<2>      |result<3>      |    8.060|
+intop2<2>      |result<4>      |    7.931|
+intop2<2>      |result<5>      |    7.963|
+intop2<2>      |result<6>      |    7.939|
+intop2<2>      |result<7>      |    7.379|
+intop2<3>      |carry          |    7.046|
+intop2<3>      |overflow       |    7.274|
+intop2<3>      |product<3>     |   10.632|
+intop2<3>      |product<4>     |   13.357|
+intop2<3>      |product<5>     |   15.618|
+intop2<3>      |product<6>     |   17.759|
+intop2<3>      |product<7>     |   19.321|
+intop2<3>      |product<8>     |   20.131|
+intop2<3>      |product<9>     |   20.744|
+intop2<3>      |product<10>    |   21.386|
+intop2<3>      |product<11>    |   21.443|
+intop2<3>      |product<12>    |   21.768|
+intop2<3>      |product<13>    |   22.255|
+intop2<3>      |product<14>    |   22.665|
+intop2<3>      |product<15>    |   22.570|
+intop2<3>      |result<0>      |    8.795|
+intop2<3>      |result<1>      |    7.932|
+intop2<3>      |result<2>      |    7.720|
+intop2<3>      |result<3>      |    7.639|
+intop2<3>      |result<4>      |    7.510|
+intop2<3>      |result<5>      |    7.542|
+intop2<3>      |result<6>      |    7.518|
+intop2<3>      |result<7>      |    6.958|
+intop2<4>      |carry          |    7.065|
+intop2<4>      |overflow       |    7.293|
+intop2<4>      |product<4>     |   12.274|
+intop2<4>      |product<5>     |   15.278|
+intop2<4>      |product<6>     |   17.419|
+intop2<4>      |product<7>     |   18.981|
+intop2<4>      |product<8>     |   19.791|
+intop2<4>      |product<9>     |   20.604|
+intop2<4>      |product<10>    |   21.246|
+intop2<4>      |product<11>    |   21.303|
+intop2<4>      |product<12>    |   21.628|
+intop2<4>      |product<13>    |   22.115|
+intop2<4>      |product<14>    |   22.525|
+intop2<4>      |product<15>    |   22.430|
+intop2<4>      |result<0>      |    8.814|
+intop2<4>      |result<1>      |    7.951|
+intop2<4>      |result<2>      |    7.739|
+intop2<4>      |result<3>      |    7.658|
+intop2<4>      |result<4>      |    7.529|
+intop2<4>      |result<5>      |    7.561|
+intop2<4>      |result<6>      |    7.537|
+intop2<4>      |result<7>      |    6.977|
+intop2<5>      |carry          |    6.287|
+intop2<5>      |overflow       |    6.515|
+intop2<5>      |product<5>     |   15.392|
+intop2<5>      |product<6>     |   17.533|
+intop2<5>      |product<7>     |   19.095|
+intop2<5>      |product<8>     |   20.356|
+intop2<5>      |product<9>     |   21.212|
+intop2<5>      |product<10>    |   21.854|
+intop2<5>      |product<11>    |   21.911|
+intop2<5>      |product<12>    |   22.236|
+intop2<5>      |product<13>    |   22.922|
+intop2<5>      |product<14>    |   23.332|
+intop2<5>      |product<15>    |   23.237|
+intop2<5>      |result<0>      |    8.036|
+intop2<5>      |result<1>      |    7.173|
+intop2<5>      |result<2>      |    6.961|
+intop2<5>      |result<3>      |    6.880|
+intop2<5>      |result<4>      |    6.751|
+intop2<5>      |result<5>      |    6.783|
+intop2<5>      |result<6>      |    6.759|
+intop2<5>      |result<7>      |    6.199|
+intop2<6>      |carry          |    6.337|
+intop2<6>      |overflow       |    6.565|
+intop2<6>      |product<6>     |   15.810|
+intop2<6>      |product<7>     |   17.884|
+intop2<6>      |product<8>     |   19.314|
+intop2<6>      |product<9>     |   20.170|
+intop2<6>      |product<10>    |   20.812|
+intop2<6>      |product<11>    |   20.869|
+intop2<6>      |product<12>    |   21.194|
+intop2<6>      |product<13>    |   21.880|
+intop2<6>      |product<14>    |   22.290|
+intop2<6>      |product<15>    |   22.195|
+intop2<6>      |result<0>      |    8.086|
+intop2<6>      |result<1>      |    7.223|
+intop2<6>      |result<2>      |    7.011|
+intop2<6>      |result<3>      |    6.930|
+intop2<6>      |result<4>      |    6.801|
+intop2<6>      |result<5>      |    6.833|
+intop2<6>      |result<6>      |    6.809|
+intop2<6>      |result<7>      |    6.249|
+intop2<7>      |carry          |    5.574|
+intop2<7>      |overflow       |    5.786|
+intop2<7>      |product<7>     |   16.230|
+intop2<7>      |product<8>     |   17.660|
+intop2<7>      |product<9>     |   18.516|
+intop2<7>      |product<10>    |   19.158|
+intop2<7>      |product<11>    |   19.215|
+intop2<7>      |product<12>    |   19.657|
+intop2<7>      |product<13>    |   20.543|
+intop2<7>      |product<14>    |   20.953|
+intop2<7>      |product<15>    |   20.858|
+intop2<7>      |result<0>      |    6.814|
+intop2<7>      |result<1>      |    6.666|
+intop2<7>      |result<2>      |    6.454|
+intop2<7>      |result<3>      |    6.373|
+intop2<7>      |result<4>      |    6.244|
+intop2<7>      |result<5>      |    6.276|
+intop2<7>      |result<6>      |    6.252|
+intop2<7>      |result<7>      |    5.699|
+opcode<0>      |carry          |    5.720|
+opcode<0>      |overflow       |    5.939|
+opcode<0>      |product<0>     |    6.257|
+opcode<0>      |product<1>     |    7.373|
+opcode<0>      |product<2>     |    8.218|
+opcode<0>      |product<3>     |    7.540|
+opcode<0>      |product<4>     |    8.026|
+opcode<0>      |product<5>     |    8.549|
+opcode<0>      |product<6>     |    8.573|
+opcode<0>      |product<7>     |    9.063|
+opcode<0>      |product<8>     |    9.270|
+opcode<0>      |product<9>     |    9.177|
+opcode<0>      |product<10>    |    8.970|
+opcode<0>      |product<11>    |    9.025|
+opcode<0>      |product<12>    |    9.141|
+opcode<0>      |product<13>    |    9.790|
+opcode<0>      |product<14>    |    6.029|
+opcode<0>      |product<15>    |    5.934|
+opcode<0>      |result<0>      |    6.290|
+opcode<0>      |result<1>      |    6.927|
+opcode<0>      |result<2>      |    6.715|
+opcode<0>      |result<3>      |    6.634|
+opcode<0>      |result<4>      |    6.505|
+opcode<0>      |result<5>      |    6.537|
+opcode<0>      |result<6>      |    6.513|
+opcode<0>      |result<7>      |    5.954|
+opcode<1>      |carry          |    5.424|
+opcode<1>      |overflow       |    5.645|
+opcode<1>      |product<0>     |    6.495|
+opcode<1>      |product<1>     |    7.047|
+opcode<1>      |product<2>     |    7.892|
+opcode<1>      |product<3>     |    7.214|
+opcode<1>      |product<4>     |    7.700|
+opcode<1>      |product<5>     |    8.223|
+opcode<1>      |product<6>     |    8.247|
+opcode<1>      |product<7>     |    8.737|
+opcode<1>      |product<8>     |    8.944|
+opcode<1>      |product<9>     |    8.851|
+opcode<1>      |product<10>    |    8.644|
+opcode<1>      |product<11>    |    8.699|
+opcode<1>      |product<12>    |    8.815|
+opcode<1>      |product<13>    |    9.464|
+opcode<1>      |product<14>    |    6.255|
+opcode<1>      |product<15>    |    6.160|
+opcode<1>      |result<0>      |    7.494|
+opcode<1>      |result<1>      |    6.899|
+opcode<1>      |result<2>      |    6.687|
+opcode<1>      |result<3>      |    6.606|
+opcode<1>      |result<4>      |    6.477|
+opcode<1>      |result<5>      |    6.509|
+opcode<1>      |result<6>      |    6.485|
+opcode<1>      |result<7>      |    5.941|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Oct 29 12:20:20 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 616 MB
+
+
+

@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Vipul\ALUproject\mult8bit_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Vipul/ALUproject/mult8bit_isim_beh.wdb 
+Running: C:\Users\Vipul\ALUproject\register_file_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Vipul/ALUproject/register_file_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,14 +11,3 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /mult8bit/in_a 00000001 -radix bin
-# isim force add /mult8bit/in_b 00000001 -radix bin
-# run 1.00us
-value1 of out_c is:    1
-out_c = 0000000000000001
-# isim force add /mult8bit/in_b 00000010 -radix bin
-# run 1.00us
-value1 of out_c is:    3
-out_c = 0000000000000011
-value1 of out_c is:    2
-out_c = 0000000000000010

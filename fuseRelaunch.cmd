@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Vipul/ALUproject/mult8bit_isim_beh.exe" -prj "C:/Users/Vipul/ALUproject/mult8bit_beh.prj" "work.mult8bit" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Vipul/ALUproject/register_file_isim_beh.exe" -prj "C:/Users/Vipul/ALUproject/register_file_beh.prj" "work.register_file" "work.glbl" 

@@ -5,46 +5,73 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">sum_out</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 13: Redeclaration of ansi port <arg fmt="%s" index="1">sum_out</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">c_out</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 14: Redeclaration of ansi port <arg fmt="%s" index="1">c_out</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">overflow</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 16: Redeclaration of ansi port <arg fmt="%s" index="1">overflow</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">in_a</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 17: Redeclaration of ansi port <arg fmt="%s" index="1">in_a</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 33: Redeclaration of ansi port <arg fmt="%s" index="1">in_b</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 18: Redeclaration of ansi port <arg fmt="%s" index="1">in_b</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">in_c</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 19: Redeclaration of ansi port <arg fmt="%s" index="1">in_c</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 36: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\mult8bit.v" Line 9: Redeclaration of ansi port <arg fmt="%s" index="1">out_c</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 37: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\mult8bit.v" Line 10: Redeclaration of ansi port <arg fmt="%s" index="1">in_a</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 38: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\mult8bit.v" Line 11: Redeclaration of ansi port <arg fmt="%s" index="1">in_b</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 39: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 13: Redeclaration of ansi port <arg fmt="%s" index="1">opcode</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 40: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 14: Redeclaration of ansi port <arg fmt="%s" index="1">intop1</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 41: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 15: Redeclaration of ansi port <arg fmt="%s" index="1">intop2</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 42: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 16: Redeclaration of ansi port <arg fmt="%s" index="1">overflow</arg> is not allowed
 </msg>
 
-<msg type="error" file="HDLCompiler" num="1575" delta="old" >"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 43: Instantiation is not allowed in sequential area except checker instantiation
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 17: Redeclaration of ansi port <arg fmt="%s" index="1">carry</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 18: Redeclaration of ansi port <arg fmt="%s" index="1">result</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\ALU.v" Line 19: Redeclaration of ansi port <arg fmt="%s" index="1">product</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"C:\Users\Vipul\ALUproject\register_file.v" Line 10: Redeclaration of ansi port <arg fmt="%s" index="1">inreg1</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"C:\Users\Vipul\ALUproject\register_file.v" Line 11: Redeclaration of ansi port <arg fmt="%s" index="1">inreg2</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\Vipul\ALUproject\register_file.v" Line 12: Redeclaration of ansi port <arg fmt="%s" index="1">opcode</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\Vipul\ALUproject\register_file.v" Line 41: Assignment to <arg fmt="%s" index="1">carry_output</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\Vipul\ALUproject\register_file.v" Line 42: Assignment to <arg fmt="%s" index="1">store_word</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"C:\Users\Vipul\ALUproject\register_file.v" Line 32: Signal <arg fmt="%s" index="1">store_inp1[7]</arg> in unit <arg fmt="%s" index="2">register_file</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\Vipul\ALUproject\register_file.v" Line 5: Empty module &lt;<arg fmt="%s" index="1">register_file</arg>&gt; remains a black box.
 </msg>
 
 </messages>

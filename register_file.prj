@@ -1,0 +1,8 @@
+verilog work "fulladder.v"
+verilog work "booth_step_mult.v"
+verilog work "xor8bit.v"
+verilog work "ripple8bit.v"
+verilog work "mult8bit.v"
+verilog work "and8bit.v"
+verilog work "ALU.v"
+verilog work "register_file.v"

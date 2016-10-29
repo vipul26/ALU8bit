@@ -1,23 +1,7 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    00:10:58 10/28/2016 
-// Design Name: 
-// Module Name:    and8bit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+//GroupID-14 (15116073_15116037)-Vipul Gupta & Nitin Sethi
+//Date:27th October 2016
+//AND part
 module and8bit(in_a,
     in_b,
 	 out

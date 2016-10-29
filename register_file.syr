@@ -1,0 +1,202 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: register_file.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "register_file.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "register_file"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : register_file
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\fulladder.v" into library work
+Parsing module <fulladder>.
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\booth_step_mult.v" into library work
+Parsing module <booth_step_mult>.
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\xor8bit.v" into library work
+Parsing module <xor8bit>.
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\ripple8bit.v" into library work
+Parsing module <ripple8bit>.
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ripple8bit.v" Line 13: Redeclaration of ansi port sum_out is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ripple8bit.v" Line 14: Redeclaration of ansi port c_out is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ripple8bit.v" Line 16: Redeclaration of ansi port overflow is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ripple8bit.v" Line 17: Redeclaration of ansi port in_a is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ripple8bit.v" Line 18: Redeclaration of ansi port in_b is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ripple8bit.v" Line 19: Redeclaration of ansi port in_c is not allowed
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\mult8bit.v" into library work
+Parsing module <mult8bit>.
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\mult8bit.v" Line 9: Redeclaration of ansi port out_c is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\mult8bit.v" Line 10: Redeclaration of ansi port in_a is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\mult8bit.v" Line 11: Redeclaration of ansi port in_b is not allowed
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\and8bit.v" into library work
+Parsing module <and8bit>.
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\ALU.v" into library work
+Parsing module <ALU>.
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 13: Redeclaration of ansi port opcode is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 14: Redeclaration of ansi port intop1 is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 15: Redeclaration of ansi port intop2 is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 16: Redeclaration of ansi port overflow is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 17: Redeclaration of ansi port carry is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 18: Redeclaration of ansi port result is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\ALU.v" Line 19: Redeclaration of ansi port product is not allowed
+Analyzing Verilog file "C:\Users\Vipul\ALUproject\register_file.v" into library work
+Parsing module <register_file>.
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\register_file.v" Line 10: Redeclaration of ansi port inreg1 is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\register_file.v" Line 11: Redeclaration of ansi port inreg2 is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\Vipul\ALUproject\register_file.v" Line 12: Redeclaration of ansi port opcode is not allowed
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <register_file>.
+
+Elaborating module <ALU>.
+
+Elaborating module <ripple8bit>.
+
+Elaborating module <fulladder>.
+"C:\Users\Vipul\ALUproject\ripple8bit.v" Line 32. $display 1'b.
+
+Elaborating module <and8bit>.
+
+Elaborating module <xor8bit>.
+
+Elaborating module <mult8bit>.
+
+Elaborating module <booth_step_mult>.
+"C:\Users\Vipul\ALUproject\mult8bit.v" Line 46. $display value1 of out_c is:0
+"C:\Users\Vipul\ALUproject\mult8bit.v" Line 47. $display out_c = 16'b................
+"C:\Users\Vipul\ALUproject\ALU.v" Line 43. $display executing addition result = 8'b........
+"C:\Users\Vipul\ALUproject\ALU.v" Line 44. $display result= 0
+"C:\Users\Vipul\ALUproject\ALU.v" Line 51. $display executing and result = 8'b........
+"C:\Users\Vipul\ALUproject\ALU.v" Line 52. $display result= 0
+"C:\Users\Vipul\ALUproject\ALU.v" Line 59. $display executing xor result = 8'b........
+"C:\Users\Vipul\ALUproject\ALU.v" Line 60. $display result= 0
+"C:\Users\Vipul\ALUproject\ALU.v" Line 67. $display executing multiplication result = 16'b................
+"C:\Users\Vipul\ALUproject\ALU.v" Line 68. $display result= 0
+WARNING:HDLCompiler:1127 - "C:\Users\Vipul\ALUproject\register_file.v" Line 41: Assignment to carry_output ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Vipul\ALUproject\register_file.v" Line 42: Assignment to store_word ignored, since the identifier is never used
+ERROR:HDLCompiler:1401 - "C:\Users\Vipul\ALUproject\register_file.v" Line 32: Signal store_inp1[7] in unit register_file is connected to following multiple drivers:
+Driver 0: output signal store_inp1[7] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[7] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[6] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[6] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[5] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[5] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[4] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[4] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[3] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[3] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[2] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[2] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[1] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[1] of instance Flip-flop (_i000010).
+Driver 0: output signal store_inp1[0] of instance Flip-flop (store_inp1).
+Driver 1: output signal store_inp1[0] of instance Flip-flop (_i000010).
+Module register_file remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Users\Vipul\ALUproject\register_file.v" Line 5: Empty module <register_file> remains a black box.
+--> 
+
+Total memory usage is 272576 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

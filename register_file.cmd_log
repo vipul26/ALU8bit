@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Vipul/ALUproject/register_file.xst" -ofn "C:/Users/Vipul/ALUproject/register_file.syr" 
