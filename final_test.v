@@ -1,27 +1,7 @@
 `timescale 1ns / 1ps
-
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   14:08:46 10/29/2016
-// Design Name:   register_file
-// Module Name:   C:/Users/Vipul/ALUproject/final_test.v
-// Project Name:  ALUproject
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: register_file
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
+//GroupID-14 (15116073_15116037)-Vipul Gupta & Nitin Sethi
+//Date:28th October 2016
+//Register file + ALU module calling
 module final_test;
 
 	// Inputs

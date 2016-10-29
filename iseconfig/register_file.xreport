@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-29T14:18:43</DateModified>
+  <DateModified>2016-10-29T14:55:37</DateModified>
   <ModuleName>register_file</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Vipul/ALUproject/iseconfig/register_file.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Vipul/ALUproject</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Vipul/ALUproject\</ImplementationReportsDirectory>
   <DateInitialized>2016-10-29T14:18:43</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
